@@ -20,6 +20,7 @@ paginate: true
 morten.nygaard.aasnes@dfind.no
 <!--
 * Intro
+* Edgar Dijikstra: Go to statement considered harmful - 1968
 * Litt om typer, for de enkle objektene der man 
 * ofte velger å bruke primitive typer.
 -->
