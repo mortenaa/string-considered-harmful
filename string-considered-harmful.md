@@ -44,6 +44,7 @@ morten.nygaard.aasnes@dfind.no
 * compile time vs runtime
 * gammel krangel
 * trend mot mer typer og typesjekking
+* typer gir fordel for ide og intellisense
 -->
 
 ---
@@ -77,7 +78,7 @@ morten.nygaard.aasnes@dfind.no
 * Kommuniserer hva vi vil uttrykke både til lesere av koden og til
   kompilatoren. Bedre lesbarhet.
 * Typesikkerhet. 
-* Verbosity ok.
+* Verbosity er ikke nødvendigvis et problem. avveining konsist vs lesbarhet
 * Type inference
 -->
 
@@ -103,7 +104,7 @@ morten.nygaard.aasnes@dfind.no
 
 * A string can contain anything
 * Validation must be enforced outside the type
-* Buypasses the type system
+* Bypasses the type system
 
 <!--
 * Kanskje den mest missbrukte primitive typen
@@ -117,6 +118,10 @@ morten.nygaard.aasnes@dfind.no
 
 ---
 # A String example
+
+```kotlin
+val fnr = "27113626688"
+```
 
 * National identity number
 * 11 digits
@@ -148,6 +153,7 @@ morten.nygaard.aasnes@dfind.no
 * extension functions
 * andre språk har lignende funksjonalitet
 * om ikke er ikke konstruktører og factory metoder så ille
+* angående verbositet: bruker av koden vs implermentasjon
 -->
 ---
 # Make illegal states unrepresentable
