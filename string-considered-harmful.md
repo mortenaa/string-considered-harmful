@@ -217,6 +217,7 @@ data class Failed(val id: UUID, val error: Error): Job(id)
 * og kun en statet jobb har progress, osv
 * og komilator kan sjekke at dette følges
 * og ide kan guide deg til å konstruere objektet
+* hvor stopper vi? detaljniva. precondition. dependent types
 -->
 
 ---
